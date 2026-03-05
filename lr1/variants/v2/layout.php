@@ -16,6 +16,8 @@ function renderVariantLayout(string $content, string $taskName, string $bodyClas
         'task4.php' => 'Завдання 3',
         'task5.php' => 'Завдання 4',
         'task6.php' => 'Завдання 5',
+        'task7_table.php' => 'Завдання 6.1',
+        'task7_squares.php' => 'Завдання 6.2',
     ];
 
     $demoUrl = "/lr1/demo/{$currentTask}?from=v30";
@@ -39,7 +41,7 @@ function renderVariantLayout(string $content, string $taskName, string $bodyClas
         </div>
         <div class="header-center"></div>
         <div class="header-right">
-            <span class="header-variant-label">В-30</span>
+            <span class="header-variant-label">В-2</span>
             <select class="header-task-select" onchange="if(this.value) location.href=this.value">
                 <?php foreach ($variantTasks as $file => $name): ?>
                 <option value="<?= htmlspecialchars($file) ?>"
