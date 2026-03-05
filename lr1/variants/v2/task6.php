@@ -27,7 +27,6 @@ function isPalindrome(int $number): bool
     return $number === reverseNumber($number);
 }
 
-// Вхідні дані (варіант 30)
 $number = 581;
 
 $d1 = (int)($number / 100);
