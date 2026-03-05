@@ -36,7 +36,7 @@ function renderVariantLayout(string $content, string $taskName, string $bodyClas
     <header class="header-fixed">
         <div class="header-left">
             <a href="/" class="header-btn">Головна</a>
-            <a href="index.php" class="header-btn">← Варіант 30</a>
+            <a href="index.php" class="header-btn">← Варіант 2</a>
             <a href="<?= htmlspecialchars($demoUrl) ?>" class="header-btn header-btn-demo">Demo</a>
         </div>
         <div class="header-center"></div>
